@@ -67,3 +67,51 @@ Para detalhes sobre as outras opções de camada, consulte [Choosing the right I
 
 ![Create IoTHub](images/05_Create_IoTHub_Submit_2.png)
 
+# Connect PI Simulator to IoT Hub
+
+![IoT Hub](images/pi_simulator.png)
+
+Conecte um simulador ao seu Hub IoT e transmita dados.
+
+### Neste laboratório você vai
+
+* Aprenda a criar um dispositivo usando o Portal do Azure
+
+* Conecte o simulador ao Hub IoT
+
+* Enviar dados de telemetria para o Azure
+
+## Crie um dispositivo
+
+Vá para o seu Hub IoT no portal e clique em **IoT Devices**
+
+
+![Resource Group](images/iot_devices.png)
+
+Click on **+ Add** and enter a **Device ID** and click **Save**. 
+
+![Resource Group](images/add_device.png)
+
+Clique no dispositivo e copie a string de conexão da chave primária.
+
+![Resource Group](images/connection-string.png)
+
+Clique no link abaixo para ir ao PI Simulator
+
+[PI Simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/#GetStarted)
+
+Substitua a cadeia de conexão pela cadeia de conexão de chave primária copiada nas etapas anteriores
+
+![Resource Group](images/pi_connection_string_before.png)
+
+Depois de copiar a seqüência de conexão deve parecer abaixo
+
+![Resource Group](images/pi_connection_string_after.png)
+
+Clique em Executar e comece a enviar mensagens. LED começará a piscar
+
+![Resource Group](images/pi_message.png)
+
+As mensagens começarão a fluir para o Hub IoT
+
+![Resource Group](images/iothub_messages.png)
