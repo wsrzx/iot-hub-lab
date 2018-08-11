@@ -57,11 +57,9 @@ Certifique-se de selecionar o grupo de recursos que você criou na etapa anterio
 
 No campo **Name**, insira um nome exclusivo para o seu hub IoT. O nome do seu hub IoT deve ser **exclusivo** em todos os hubs da IoT.
 
-No campo Nível, selecione **S1 tier**.
+No campo Nível, selecione **F1 tier**.
 
 Você pode escolher entre várias camadas, dependendo de quantos recursos você quer e quantas mensagens você envia através de sua solução por dia. O nível gratuito destina-se a testes e avaliação. Ele permite que 500 dispositivos sejam conectados ao hub IoT e até 8.000 mensagens por dia. Cada assinatura do Azure pode criar um Hub IoT na camada gratuita.
-
-O nível **S1** permite um total de 400.000 mensagens por unidade por dia.
 
 Para detalhes sobre as outras opções de camada, consulte [Choosing the right IoT Hub tier](https://azure.microsoft.com/en-us/pricing/details/iot-hub/).
 
